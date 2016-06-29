@@ -27,7 +27,7 @@ Follow these simple instructions:
 ####Running on Android Emulator####
 Running the app for android platform is avaiable for all OS, so we'll focus on that.
 First, you must open AVD Manager via the Android Studio IDE by clicking the
-AVD Manager icon ![alt text][AVDManagerIcon]
+AVD Manager icon ![AVD Manager icon][AVDManagerIcon]
 
 This opens the Android Virtual Device Manager console, where you can create new
 virtual devices (run by android emulator in the computer) and run those instances.
@@ -37,7 +37,7 @@ that now.
 Once you have a Virtual Device instance creted, click on the play icon to run it,
 you'll see a window appearing with the device depicted on it.
 
-[AVDManagerConsole]
+![AVD Manager Console][AVDManagerConsole]
 
 Leave it on and go back to the terminal.
 
