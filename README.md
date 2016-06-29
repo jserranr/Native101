@@ -35,8 +35,11 @@ If you have not created a virtual device on the installation process, do
 that now.
 
 Once you have a Virtual Device instance creted, click on the play icon to run it,
-you'll see a window appearing with the device depicted on it. Leave it on and go
-back to the terminal.
+you'll see a window appearing with the device depicted on it.
+
+[AVDManagerConsole]
+
+Leave it on and go back to the terminal.
 
 ```
   > react-native run-android
