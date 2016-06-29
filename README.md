@@ -45,7 +45,7 @@ back to the terminal.
 This should trigger all the processes to run the app on the virtual environment,
 provided the emulator is still running.
 
-Note: be sure that you don't have any android device plugged in.
+**Note**: be sure that you don't have any android device plugged in.
 
 
 
