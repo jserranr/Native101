@@ -2,8 +2,8 @@
 Repository for the first workshop in react-native
 
 ##Getting Started. React Native Tools##
-Follow the instructions in the react native website, in order to install the
-packages needed to run react native apps
+Follow the instructions in the [react native website](https://facebook.github.io/react-native/docs/getting-started.html),
+in order to install the packages needed to run react native apps
 
 You can install the packages to build and run the app for android
 (for MacOSX, Linux and Windows OSes) and/or for iOS (MacOSX only)
@@ -34,7 +34,7 @@ virtual devices (run by android emulator in the computer) and run those instance
 If you have not created a virtual device on the installation process, do
 that now.
 
-Once you have a Virtual Device instance creted, click on the play icon to run it,
+Once you have a Virtual Device instance created, click on the play icon to run it,
 you'll see a window appearing with the device depicted on it.
 
 ![AVD Manager Console][AVDManagerConsole]
