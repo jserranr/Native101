@@ -50,7 +50,24 @@ provided the emulator is still running.
 
 **Note**: be sure that you don't have any android device plugged in.
 
-
-
 [AVDManagerIcon]: https://raw.githubusercontent.com/jserranr/Native101/master/_instructions/avdmanager_icon.png
 [AVDManagerConsole]: https://raw.githubusercontent.com/jserranr/Native101/master/_instructions/avdmanager_console.png
+
+
+###Running on iOS Simulator###
+
+I order to run a react native app in iOS device or simulator, you'll need XCode,
+which is only available on MacOX platform.
+
+Once XCode is properly installed, open the .xcodeproj file located on ios folder
+
+```
+  > cd Native101/ios
+  > open native101.xcodeproj
+```
+
+Once the XCode is open, just target it to the simulator (for example, iPhone6),
+and click play button ![XCode Run Icon][XCodeRunIcon] to run the app. It'll open
+the simulator and start the app
+
+[XCodeRunIcon]: https://raw.githubusercontent.com/jserranr/Native101/master/_instructions/runios_icon.png
