@@ -14,17 +14,19 @@ import promise from 'redux-promise'
 
 const createStoreWithMiddleware = applyMiddleware(promise)(createStore)
 
-import plainStyles from '../styles'
+import plainStyles from '../styles/app'
 import reducers from '../reducers'
 
 class App extends Component {
 
   render () {
-    console.log(plainStyles)
     return (
       <Provider store={createStoreWithMiddleware(reducers)}>
         <View style={styles.container}>
           <Text style={styles.letters}>We are on {Platform.OS}</Text>
+          <View style={styles.greenBlock} />
+          <View style={styles.blackBlock} />
+          <View style={styles.greenBlock} />
         </View>
       </Provider>
     )

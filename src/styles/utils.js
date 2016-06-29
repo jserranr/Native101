@@ -4,16 +4,15 @@
   * this is analogous to subclassing in OOP.
   * Be aware that it only merges elements 1 level deep from the JSON.
   */
-export function extendStyle(baseStyle, extendStyle) {
-  let newStyle = baseStyle;
+export function extendStyle (baseStyle, extendStyle) {
+  let newStyle = baseStyle
   for (let key in extendStyle) {
     if (baseStyle[key]) {
-      newStyle[key] = Object.assign({}, baseStyle[key], extendStyle[key]);
-    }
-    else {
-      newStyle[key] = extendStyle[key];
+      newStyle[key] = Object.assign({}, baseStyle[key], extendStyle[key])
+    } else {
+      newStyle[key] = extendStyle[key]
     }
   }
 
-  return newStyle;
+  return newStyle
 }
