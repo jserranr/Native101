@@ -49,5 +49,5 @@ Note: be sure that you don't have any android device plugged in.
 
 
 
-[AVDManagerIcon]: https://github.com/jserranr/Native101/_instructions/avdmanager_icon.png
-[AVDManagerConsole]: https://github.com/jserranr/Native101/_instructions/avdmanager_console.png
+[AVDManagerIcon]: https://raw.githubusercontent.com/jserranr/Native101/master/_instructions/avdmanager_icon.png
+[AVDManagerConsole]: https://raw.githubusercontent.com/jserranr/Native101/master/_instructions/avdmanager_console.png
