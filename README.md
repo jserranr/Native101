@@ -70,4 +70,7 @@ Once the XCode is open, just target it to the simulator (for example, iPhone6),
 and click play button ![XCode Run Icon][XCodeRunIcon] to run the app. It'll open
 the simulator and start the app
 
+[XCodeTargetSimulator]
+
 [XCodeRunIcon]: https://raw.githubusercontent.com/jserranr/Native101/master/_instructions/runios_icon.png
+[XCodeTargetSimulator]: https://raw.githubusercontent.com/jserranr/Native101/master/_instructions/xcode_target.png
